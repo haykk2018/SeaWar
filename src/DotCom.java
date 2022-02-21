@@ -12,7 +12,6 @@ public class DotCom {
     }
 
     public String checkYourself(String userInput) {
-        //int guess = Integer.parseInt(stringGuess);
         int index = locationCells.indexOf(userInput);
         String result = "Мимо";
         if (index >= 0) {
