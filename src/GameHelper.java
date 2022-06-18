@@ -11,6 +11,9 @@ public class GameHelper {
     public String getUserInput(String prompt) {
         String inputLine = null;
         System.out.print(prompt + " ");
+        //without try
+        //Scanner sc = new Scanner(System.in);
+        //sc.next()
         try {
             BufferedReader is = new BufferedReader(new InputStreamReader(System.in));
             inputLine = is.readLine();
