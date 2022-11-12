@@ -17,8 +17,8 @@ public class DotCom {
         if (index >= 0) {
             locationCells.remove(index);
             if (locationCells.isEmpty()) {
-                result = "Потопил";
-                System.out.println("Ой! Вы потопили " + name);
+                result = "Hit the target";
+                System.out.println("! You Hit the target " + name);
             } else {
                 result = "Hit the target";
             }
